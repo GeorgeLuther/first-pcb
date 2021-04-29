@@ -24,4 +24,39 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega
 	1    1400 2750
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60890457
+P 1300 800
+F 0 "#PWR?" H 1300 650 50  0001 C CNN
+F 1 "+5V" H 1315 973 50  0000 C CNN
+F 2 "" H 1300 800 50  0001 C CNN
+F 3 "" H 1300 800 50  0001 C CNN
+	1    1300 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 950  1300 800 
+Wire Wire Line
+	1300 950  1400 950 
+Connection ~ 1300 950 
+Connection ~ 1400 950 
+Wire Wire Line
+	1400 950  1500 950 
+$Comp
+L power:GND #PWR?
+U 1 1 6089896B
+P 950 4550
+F 0 "#PWR?" H 950 4300 50  0001 C CNN
+F 1 "GND" H 955 4377 50  0000 C CNN
+F 2 "" H 950 4550 50  0001 C CNN
+F 3 "" H 950 4550 50  0001 C CNN
+	1    950  4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  4550 1300 4550
+Connection ~ 1300 4550
+Wire Wire Line
+	1300 4550 1400 4550
 $EndSCHEMATC
